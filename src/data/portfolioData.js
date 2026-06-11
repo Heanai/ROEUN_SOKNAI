@@ -1,3 +1,4 @@
+import logo from '../assets/logoAddbook.png'
 export const techSkills = [
     { name: "Website Design", level: 90 },
     { name: "HTML5 / CSS3", level: 88 },
@@ -17,7 +18,6 @@ export const designSkills = [
     { name: "Adobe After Effects", level: 70 },
     { name: "CapCut", level: 90 },
 ];
-
 export const projects = [
     {
         id: 1,
@@ -37,17 +37,17 @@ export const projects = [
         tags: ["React", "CSS3", "JavaScript", "HTML5"], // កែសម្រួលតាមកូដ CSS ដើម និង React ដែលអ្នកបានប្រើប្រាស់
         demo: "https://add-book-center.vercel.app/",
         github: "#", // អ្នកអាចដាក់លីង GitHub Repository របស់អ្នកនៅត្រង់នេះ
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&q=80", // រូបភាពតំណាងឱ្យ Computer Center/Online Learning
+        image: logo, // រូបភាពតំណាងឱ្យ Computer Center/Online Learning
     },
     {
         id: 3,
         category: "webdev",
-        title: "Portfolio CMS",
+        title: "Food",
         description: "Content management system tailored for creatives to showcase work online.",
         tags: ["React", "Node.js", "MongoDB"],
-        demo: "#",
+        demo: "https://food-khmer-euro-githib-io.vercel.app/",
         github: "#",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
+        image: "https://images.getbento.com/accounts/89316af9a381ceb78a2c5fa75b7b7831/media/images/54156table-with-food-for-usa-4th-july-independence-day-2023-11-27-05-37-19-utc.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5",
     },
     {
         id: 4,
