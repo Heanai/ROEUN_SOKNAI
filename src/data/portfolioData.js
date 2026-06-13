@@ -1,4 +1,24 @@
 import logo from '../assets/logoAddbook.png'
+import p11 from '../assets/poster/p11.jpg'
+import p1 from '../assets/poster/p1.jpg'
+import p2 from '../assets/poster/p2.jpg'
+import p3 from '../assets/poster/p3.jpg'
+import p4 from '../assets/poster/p4.jpg'
+import p5 from '../assets/poster/p5.jpg'
+import p6 from '../assets/poster/p6.jpg'
+import p7 from '../assets/poster/p7.jpg'
+import p8 from '../assets/poster/p8.jpg'
+import p9 from '../assets/poster/p9.jpg'
+import t1 from '../assets/poster/t1.jpg'
+import t2 from '../assets/poster/t2.jpg'
+import p10 from '../assets/poster/p10.jpg'
+import p12 from '../assets/poster/p12.jpg'
+import p13 from '../assets/poster/p13.jpg'
+import p14 from '../assets/poster/p14.png'
+import p15 from '../assets/poster/p15.png'
+import p16 from '../assets/poster/p16.png'
+import v1 from '../assets/poster/v1.mp4'
+import v2 from '../assets/poster/v2.mp4'
 export const techSkills = [
     { name: "Website Design", level: 90 },
     { name: "HTML5 / CSS3", level: 88 },
@@ -54,29 +74,127 @@ export const projects = [
         category: "design",
         title: "Brand Identity – CaféKhmer",
         description: "Full branding package including logo, color palette, and print collateral.",
-        image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+        image: p11,
     },
     {
         id: 5,
         category: "design",
-        title: "Social Media Kit",
-        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
-        image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80",
+        title: "Brand Identity – CaféKhmer",
+        description: "Full branding package including logo, color palette, and print collateral.",
+        image: p1,
     },
     {
         id: 6,
-        category: "video",
-        title: "Campus Event Reel",
-        description: "60-second highlight reel of university tech fair with motion graphics.",
-        videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
-        thumbnail: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80",
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p2,
     },
     {
         id: 7,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p3,
+    },
+    {
+        id: 8,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p4,
+    },
+    {
+        id: 9,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p5,
+    },
+    {
+        id: 10,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p6,
+    },
+    {
+        id: 11,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p7,
+    },
+    {
+        id: 12,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p8,
+    },
+    {
+        id: 13,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p9,
+    },
+    {
+        id: 14,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p10,
+    },
+    {
+        id: 15,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p13,
+    },
+    {
+        id: 16,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p12,
+    },
+    {
+        id: 17,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p14,
+    },
+    {
+        id: 18,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p15,
+    },
+    {
+        id: 19,
+        category: "design",
+        title: "Social Media Kit",
+        description: "Cohesive Instagram & Facebook templates for a local fashion brand.",
+        image: p16,
+    },
+    {
+        id: 20,
+        category: "video",
+        title: "Campus Event Reel",
+        description: "60-second highlight reel of university tech fair with motion graphics.",
+        videoUrl: v1,
+        thumbnail: t1,
+    },
+    {
+        id: 21,
         category: "video",
         title: "Product Promo – BrewCo",
         description: "15-second animated product advertisement for a local coffee startup.",
-        videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
-        thumbnail: "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600&q=80",
+        videoUrl: v2,
+        thumbnail: t2,
     },
 ];
